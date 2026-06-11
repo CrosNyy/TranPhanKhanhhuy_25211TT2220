@@ -1,436 +1,475 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SaleHub</title>
 
-    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- CSS -->
     <link rel="stylesheet" href="public/css/style.css">
 
-    <!-- Icons -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
+
 <body>
 
-<!-- TOP BAR -->
-<div class="top-bar py-2">
-    <div class="container d-flex justify-content-between">
-        <div>
-            <i class="fa-solid fa-truck"></i>
-            Free shipping for order above $200
-        </div>
-
-        <div>
-            <i class="fa-regular fa-heart"></i> Wishlist
-        </div>
-    </div>
-</div>
-
-<!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg bg-white sticky-top">
-    <div class="container">
-
-        <a class="navbar-brand fw-bold fs-2" href="#">SaleHub</a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#menu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="menu">
-
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">HOME</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">PAGES</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">WOMEN</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">MEN</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">BLOG</a>
-                </li>
-            </ul>
+    <div class="top-bar py-2">
+        <div class="container d-flex justify-content-between">
+            <div>
+                <i class="fa-solid fa-truck"></i>
+                Free shipping for order above $200
+            </div>
 
             <div>
-                <i class="fa-solid fa-cart-shopping"></i>
-                Cart (0)
+                <i class="fa-regular fa-heart"></i> Wishlist
             </div>
-
         </div>
     </div>
-</nav>
 
-<!-- HERO -->
-<section class="hero">
-    <div class="container-fluid p-0">
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+        <div class="container">
 
-        <div class="hero-box">
+            <a class="navbar-brand fw-bold fs-2" href="#">SaleHub</a>
 
-            <img src="public/img/photo-1483985988355-763728e1935b.avif" class="img-fluid w-100" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <div class="hero-text">
-                <p>NEW ARRIVAL</p>
-                <h1>SUMMER <br> DRESSES</h1>
-                <button class="btn btn-dark px-4 py-2 mt-3">
-                    SHOP NOW
-                </button>
-            </div>
+            <div class="collapse navbar-collapse" id="menu">
 
-        </div>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">HOME</a>
+                    </li>
 
-    </div>
-</section>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PAGES</a>
+                    </li>
 
-<!-- QUOTE -->
-<section class="quote text-center py-5">
-    <div class="container">
-        <h4>
-            “There are no ugly women, there are just the ones
-            who don't know how to make them look good.”
-        </h4>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">WOMEN</a>
+                    </li>
 
-        <p>SaleHub Fashion</p>
-    </div>
-</section>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MEN</a>
+                    </li>
 
-<!-- FEATURE PRODUCTS -->
-<section class="py-5">
-    <div class="container">
-
-        <div class="row g-4">
-
-            <div class="col-md-4">
-                <div class="card border-0 text-center">
-
-                    <img src="public/img/photo-1483985988355-763728e1935b (1).avif" class="card-img-top">
-
-                    <div class="card-body">
-                        <h4>Solid Crop Slim Cami Top</h4>
-
-                        <p>
-                            Explore the impeccably crafted styles defined
-                            by a modern Americana aesthetic.
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card border-0 text-center">
-
-                    <img src="public/img/photo-1529139574466-a303027c1d8b.avif" class="card-img-top">
-
-                    <div class="card-body">
-                        <h4>Denim Jacket Outfits</h4>
-
-                        <p>
-                            See our top-picks for jean jackets that are
-                            oversized, distressed, and downright cool.
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card border-0 text-center">
-
-                    <img src="public/img/photo-1496747611176-843222e1e57c.avif" class="card-img-top">
-
-                    <div class="card-body">
-                        <h4>High Turtleneck Jumper</h4>
-
-                        <p>
-                            Explore the impeccably crafted styles defined
-                            by a modern Americana aesthetic.
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<!-- RECOMMENDED -->
-<section class="py-5 bg-light">
-    <div class="container">
-
-        <h3 class="text-center mb-5 fw-bold">
-            RECOMMENDED FOR YOU
-        </h3>
-
-        <div class="row g-4">
-
-            <div class="col-6 col-md-3">
-                <div class="product text-center">
-                    <img src="public/img/photo-1483985988355-763728e1935b (2).avif" class="img-fluid">
-                    <h6 class="mt-3">Basic Green Shirt</h6>
-                    <p>$29.00</p>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-3">
-                <div class="product text-center">
-                    <img src="public/img/photo-1529139574466-a303027c1d8b (1).avif" class="img-fluid">
-                    <h6 class="mt-3">Grey Jacket</h6>
-                    <p>$42.00</p>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-3">
-                <div class="product text-center">
-                    <img src="public/img/photo-1515886657613-9f3515b0c78f.avif" class="img-fluid">
-                    <h6 class="mt-3">White Coat</h6>
-                    <p>$35.00</p>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-3">
-                <div class="product text-center">
-                    <img src="public/img/photo-1496747611176-843222e1e57c (1).avif" class="img-fluid">
-                    <h6 class="mt-3">Brown Pants</h6>
-                    <p>$31.00</p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<!-- TRENDING -->
-<section class="py-5">
-    <div class="container">
-
-        <div class="row align-items-center">
-
-            <div class="col-md-6">
-                <img src="public/img/photo-1515886657613-9f3515b0c78f (1).avif" class="img-fluid">
-            </div>
-
-            <div class="col-md-6 text-center mt-4 mt-md-0">
-
-                <h5 class="fw-bold">TOP TRENDING</h5>
-
-                <img src="public/img/photo-1529139574466-a303027c1d8b (2).avif"
-                    class="img-fluid trend-small">
-
-                <h6 class="mt-3">Leather Coat</h6>
-
-                <p>$69.00</p>
-
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<!-- BEST SELLERS -->
-<section class="py-5 bg-light">
-    <div class="container">
-
-        <h3 class="text-center fw-bold mb-5">
-            BEST SELLERS
-        </h3>
-
-        <div class="row g-4">
-
-            <div class="col-6 col-md-3">
-                <img src="public/img/photo-1515886657613-9f3515b0c78f (2).avif" class="img-fluid">
-            </div>
-
-            <div class="col-6 col-md-3">
-                <img src="public/img/photo-1521572163474-6864f9cf17ab.avif" class="img-fluid">
-            </div>
-
-            <div class="col-6 col-md-3">
-                <img src="public/img/photo-1500648767791-00dcc994a43e.avif" class="img-fluid">
-            </div>
-
-            <div class="col-6 col-md-3">
-                <img src="public/img/photo-1507679799987-c73779587ccf.avif" class="img-fluid">
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<!-- BLOG -->
-<section class="py-5">
-    <div class="container">
-
-        <h3 class="text-center fw-bold mb-5">
-            FROM OUR BLOG
-        </h3>
-
-        <div class="row g-4">
-
-            <div class="col-md-4">
-                <img src="public/img/photo-1483985988355-763728e1935b (3).avif" class="img-fluid">
-                <h5 class="mt-3">
-                    New Collection For Winter
-                </h5>
-            </div>
-
-            <div class="col-md-4">
-                <img src="public/img/photo-1515886657613-9f3515b0c78f (3).avif" class="img-fluid">
-                <h5 class="mt-3">
-                    Fashion Trends 2025
-                </h5>
-            </div>
-
-            <div class="col-md-4">
-                <img src="public/img/photo-1496747611176-843222e1e57c (2).avif" class="img-fluid">
-                <h5 class="mt-3">
-                    Modern Women Style
-                </h5>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<!-- INSTAGRAM -->
-<section class="instagram py-5">
-    <div class="container">
-
-        <div class="row align-items-center">
-
-            <div class="col-md-6">
-                <h2>Follow us on Instagram</h2>
-
-                <p>
-                    Contemporary wardrobe staples and authentic style
-                    for the modern man and women.
-                </p>
-            </div>
-
-            <div class="col-md-6">
-
-                <div class="row g-2">
-
-                    <div class="col-4">
-                        <img src="public/img/photo-1496747611176-843222e1e57c (3).avif" class="img-fluid">
-                    </div>
-
-                    <div class="col-4">
-                        <img src="public/img/photo-1515886657613-9f3515b0c78f (4).avif" class="img-fluid">
-                    </div>
-
-                    <div class="col-4">
-                        <img src="public/img/photo-1483985988355-763728e1935b (4).avif" class="img-fluid">
-                    </div>
-
-                    <div class="col-4">
-                        <img src="public/img/photo-1529139574466-a303027c1d8b (3).avif" class="img-fluid">
-                    </div>
-
-                    <div class="col-4">
-                        <img src="public/img/photo-1500648767791-00dcc994a43e.avif" class="img-fluid">
-                    </div>
-
-                    <div class="col-4">
-                        <img src="public/img/photo-1507679799987-c73779587ccf (1).avif" class="img-fluid">
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-</section>
-
-<!-- FOOTER -->
-<footer class="footer py-5">
-
-    <div class="container">
-
-        <div class="row g-4">
-
-            <div class="col-md-3">
-                <h4>SaleHub</h4>
-
-                <p>
-                    Call Us : +123-456-789
-                </p>
-
-                <p>
-                    info@example.com
-                </p>
-            </div>
-
-            <div class="col-md-3">
-
-                <h5>Customer Support</h5>
-
-                <ul class="list-unstyled">
-                    <li>Shipping and Delivery</li>
-                    <li>Returns</li>
-                    <li>Size Charts</li>
-                    <li>Contact Us</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BLOG</a>
+                    </li>
                 </ul>
 
-            </div>
-
-            <div class="col-md-3">
-
-                <h5>Our Shop</h5>
-
-                <ul class="list-unstyled">
-                    <li>New Arrivals</li>
-                    <li>Top Trending</li>
-                    <li>Autumn Collection</li>
-                </ul>
+                <div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Cart (0)
+                </div>
 
             </div>
+        </div>
+    </nav>
 
-            <div class="col-md-3">
+    <section class="hero">
+        <div class="container-fluid p-0">
 
-                <h5>Newsletter</h5>
+            <div class="hero-box">
 
-                <input type="email"
-                    class="form-control mb-3"
-                    placeholder="Email address">
+                <img src="public/img/ảnh 2 cô gái ở đầu web.jpg" class="img-fluid w-100" alt="">
 
-                <button class="btn btn-dark w-100">
-                    JOIN
-                </button>
+                <div class="hero-text">
+                    <p>NEW ARRIVAL</p>
+                    <h1>SUMMER <br> DRESSES</h1>
+                    <button class="btn btn-dark px-4 py-2 mt-3">
+                        SHOP NOW
+                    </button>
+                </div>
 
             </div>
 
         </div>
+    </section>
 
-        <hr>
+    <section class="quote text-center py-5">
+        <div class="container">
+            <h4>
+                “There are no ugly women, there are just the ones
+                who don't know how to make them look good.”
+            </h4>
 
-        <p class="text-center">
-            Copyright © 2021 Vinovathemes.
-            All rights reserved.
-        </p>
+            <p>SaleHub Fashion</p>
+        </div>
+    </section>
 
-    </div>
+    <section class="py-5">
+        <div class="container">
 
-</footer>
+            <div class="row g-4">
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+                <div class="col-md-4">
+                    <div class="card border-0 text-center">
+
+                        <img src="public/img/áo hồng.jpg" class="card-img-top">
+
+                        <div class="card-body">
+                            <h4>Solid Crop Slim Cami Top</h4>
+
+                            <p>
+                                Explore the impeccably crafted styles defined
+                                by a modern Americana aesthetic.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card border-0 text-center">
+
+                        <img src="public/img/áo khoát jeenn quân đen.jpg" class="card-img-top">
+
+                        <div class="card-body">
+                            <h4>Denim Jacket Outfits</h4>
+
+                            <p>
+                                See our top-picks for jean jackets that are
+                                oversized, distressed, and downright cool.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card border-0 text-center">
+
+                        <img src="public/img/demim focket 3.jpg" class="card-img-top">
+
+                        <div class="card-body">
+                            <h4>High Turtleneck Jumper</h4>
+
+                            <p>
+                                Explore the impeccably crafted styles defined
+                                by a modern Americana aesthetic.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+
+            <h3 class="text-center mb-5 fw-bold">
+                RECOMMENDED FOR YOU
+            </h3>
+
+            <div class="row g-4">
+
+                <div class="col-6 col-md-3">
+                    <div class="product text-center">
+                        <img src="public/img/recommened for du 1.jpg" class="img-fluid">
+                        <h6 class="mt-3">Basic Green Shirt</h6>
+                        <p>$29.00</p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <div class="product text-center">
+                        <img src="public/img/recommened for du 2.jpg" class="img-fluid">
+                        <h6 class="mt-3">Grey Jacket</h6>
+                        <p>$42.00</p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <div class="product text-center">
+                        <img src="public/img/best sellers 3.jpg" class="img-fluid">
+                        <h6 class="mt-3">White Coat</h6>
+                        <p>$35.00</p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <div class="product text-center">
+                        <img src="public/img/recommened for du 4.jpg" class="img-fluid">
+                        <h6 class="mt-3">Brown Pants</h6>
+                        <p>$31.00</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-md-6">
+                    <img src="public/img/phải.png" class="img-fluid">
+                </div>
+
+                <div class="col-md-6 text-center mt-4 mt-md-0">
+
+                    <h5 class="fw-bold">TOP TRENDING</h5>
+
+                    <img src="public/img/top trending trái.jpg" class="img-fluid trend-small">
+
+                    <h6 class="mt-3">Leather Coat</h6>
+
+                    <p>$69.00</p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+
+            <h3 class="text-center fw-bold mb-5">
+                BEST SELLERS
+            </h3>
+
+            <div class="row g-4">
+
+                <div class="col-6 col-md-3">
+                    <img src="public/img/best sellers 1.jpg" class="img-fluid">
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <img src="public/img/best sellers 2.jpg" class="img-fluid">
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <img src="public/img/best sellers 3.jpg" class="img-fluid">
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <img src="public/img/best sellers 4jpg.jpg" class="img-fluid">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+
+            <h3 class="text-center fw-bold mb-5">
+                FROM OUR BLOG
+            </h3>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <img src="public/img/trên ig 1.png" class="img-fluid">
+                    <h5 class="mt-3">
+                        New Collection For Winter
+                    </h5>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="public/img/trên ig2.png" class="img-fluid">
+                    <h5 class="mt-3">
+                        Fashion Trends 2025
+                    </h5>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="public/img/Trên ig 3.png" class="img-fluid">
+                    <h5 class="mt-3">
+                        Modern Women Style
+                    </h5>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="instagram py-5">
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-md-6">
+                    <h2>Follow us on Instagram</h2>
+
+                    <p>
+                        Contemporary wardrobe staples and authentic style
+                        for the modern man and women.
+                    </p>
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="row g-2">
+
+                        <div class="col-4">
+                            <img src="public/img/chổ ig.png" class="img-fluid">
+                        </div>
+
+                        <div class="col-4">
+                            <img src="public/img/chổ ig 2.png" class="img-fluid">
+                        </div>
+
+                        <div class="col-4">
+                            <img src="public/img/chổ ig 3.png" class="img-fluid">
+                        </div>
+
+                        <div class="col-4">
+                            <img src="public/img/chổ ig 4.png" class="img-fluid">
+                        </div>
+
+                        <div class="col-4">
+                            <img src="public/img/chổ ig 5.png" class="img-fluid">
+                        </div>
+
+                        <div class="col-4">
+                            <img src="public/img/chổ ig 6.png" class="img-fluid">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="service-bar py-5">
+        <div class="container">
+
+            <div class="row text-center text-md-start">
+
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-truck-fast service-icon"></i>
+
+                        <div class="ms-3">
+                            <h6 class="fw-bold mb-1">Free Shipping</h6>
+                            <p class="mb-0">
+                                On all orders above $99
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-phone-volume service-icon"></i>
+
+                        <div class="ms-3">
+                            <h6 class="fw-bold mb-1">Support 24/7</h6>
+                            <p class="mb-0">
+                                Contact us 24 hours a day
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-arrow-right-arrow-left service-icon"></i>
+
+                        <div class="ms-3">
+                            <h6 class="fw-bold mb-1">30 Days Return</h6>
+                            <p class="mb-0">
+                                Return within 30 days
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer py-5">
+
+        <div class="container">
+
+            <div class="row g-4">
+
+                <div class="col-md-3">
+                    <h4>SaleHub</h4>
+
+                    <p>
+                        Call Us : +123-456-789
+                    </p>
+
+                    <p>
+                        info@example.com
+                    </p>
+                </div>
+
+                <div class="col-md-3">
+
+                    <h5>Customer Support</h5>
+
+                    <ul class="list-unstyled">
+                        <li>Shipping and Delivery</li>
+                        <li>Returns</li>
+                        <li>Size Charts</li>
+                        <li>Contact Us</li>
+                    </ul>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <h5>Our Shop</h5>
+
+                    <ul class="list-unstyled">
+                        <li>New Arrivals</li>
+                        <li>Top Trending</li>
+                        <li>Autumn Collection</li>
+                    </ul>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <h5>Newsletter</h5>
+
+                    <input type="email" class="form-control mb-3" placeholder="Email address">
+
+                    <button class="btn btn-dark w-100">
+                        JOIN
+                    </button>
+
+                </div>
+
+            </div>
+
+            <hr>
+
+            <p class="text-center">
+                Copyright © 2021 Vinovathemes.
+                All rights reserved.
+            </p>
+            <div class="payment-icons mt-4">
+                <img src="public/img/paypal_chổ sale hub.png" alt="Payment Methods">
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <a href="#" class="back-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
 
 </body>
+
 </html>
